@@ -1,0 +1,9 @@
+=== RUN   TestLogger
+waiting 5 sec for log entry to propagate
+--- PASS: TestLogger (7.73s)
+=== RUN   TestReady
+--- PASS: TestReady (2.01s)
+BenchmarkLoggerWrite-4       	 3000000	       403 ns/op	 158.57 MB/s	     140 B/op	       4 allocs/op
+BenchmarkLoggerWriteJSON-4   	 1000000	      2352 ns/op	  30.18 MB/s	     349 B/op	       8 allocs/op
+PASS
+ok  	github.com/emptyinterface/cloudwatchlogger	22.682s
